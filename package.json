@@ -1,6 +1,8 @@
 {
-  "name": "monster-rolodex",
+  "name": "robo-friends",
   "version": "0.1.0",
+  "author": "Tariq Khan",
+  "description": "A React App using two APIs to simulate a list of robot friends that can be searched",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -9,6 +11,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "sass": "^1.49.11",
+    "tachyons": "^4.12.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
