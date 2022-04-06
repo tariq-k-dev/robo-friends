@@ -55,6 +55,16 @@ class App extends Component {
           <Scroll>
             <CardList robots={robotSearch} />
           </Scroll>
+          <p className='repo'>
+            <a
+              class='repo-link'
+              href='https://github.com/tariq-k-dev/robo-friends'
+              target='_blank'
+              rel='noreferrer'
+            >
+              GitHub Repo
+            </a>
+          </p>
         </section>
       );
     }

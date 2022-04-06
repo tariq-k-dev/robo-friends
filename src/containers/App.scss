@@ -21,6 +21,23 @@
     margin-top: -1rem;
   }
 
+  .repo {
+    margin: 0.3125rem 0;
+
+    .repo-link {
+      border-bottom: 0.1rem solid rgba(199, 236, 238, 1);
+      color: rgba(199, 236, 238, 1);
+      letter-spacing: 00.1rem;
+      text-decoration: none;
+      transition: border-bottom 0.4s ease-in, color 0.4s ease-in;
+
+      &:hover {
+        border-bottom: 0.1rem solid transparent;
+        color: rgba(255, 234, 167, 1);
+      }
+    }
+  }
+
   .loading-container {
     background-color: rgba(10, 61, 98, 1);
     display: flex;
